@@ -54,4 +54,5 @@ public class CalculatorController {
     public ResponseEntity<String> IllegalArgumentException(RuntimeException e) {
         return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
     }
+
 }

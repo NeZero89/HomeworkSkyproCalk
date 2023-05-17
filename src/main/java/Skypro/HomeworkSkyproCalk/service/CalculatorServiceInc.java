@@ -27,5 +27,6 @@ class CalculatorServiceInk implements CalculatorServce {
         }
         throw new IllegalArgumentException("На ноль делить нельзя");
     }
+
 }
 
